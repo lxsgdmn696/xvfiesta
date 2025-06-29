@@ -1,0 +1,42 @@
+/* Fuente para los títulos */
+.luxurious-script {
+  font-family: 'Luxurious Script';
+  font-size: 150px;          
+  text-align: center;       
+  margin-top: 30px;         
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #000000;       
+}
+
+
+/* Fuente para los párrafos */
+.handlee {
+    font-size: 35px;    
+font-family: 'Handlee';
+text-align: center;       
+margin-top: 30px;         
+color: #000000;
+ margin-bottom: 5px;
+
+}
+.handlee2 {
+    font-size: 35px;
+    font-family: 'Handlee';
+    text-align: center;
+    margin-top: 5px;
+    color: #000000;
+}
+
+body {
+    background-color: rgb(171, 113, 153);
+}
+
+/*Base para las imagenes*/
+
+.imagen-redondeada {
+   display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+  width: 300px;       
+  height: auto;
+}       
