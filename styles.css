@@ -1,0 +1,159 @@
+/* Fuente para los títulos */
+.luxurious-script {
+  font-family: 'Luxurious Script';
+  font-size: 150px;          
+  text-align: center;       
+  margin-top: 30px;         
+  color: rgb(255, 255, 255);
+  margin-bottom: 0px;
+  text-shadow: 2px 2px 3px #000000;
+   line-height: 0.9     
+}
+
+.luxurious-script2 {  
+  font-family: 'Luxurious Script';
+  font-size: 120px;          
+  text-align: center;       
+  margin-top: 0px;         
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #000000; 
+   line-height: 0.9
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuente para los párrafos */
+
+.imperial {
+  font-family: "Imperial Script";
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+.imperial2 {
+  font-family: "Imperial Script";
+  font-size: 50px;
+  text-align: center;
+  margin-top: 5px;
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+body {
+     background: linear-gradient(#ff91e9, #751c5f);
+}
+
+.playfair {
+font-size: 35px;    
+font-family: 'Playfair Display';
+text-align: center;              
+color: #000000;
+margin-bottom: 5px;
+line-height: 1.1;
+margin-top: 5px
+
+}
+
+.playfair2 {
+font-size: 35px;    
+font-family: 'Playfair Display';
+text-align: center;       
+margin-top: 5px;         
+color: #000000;
+margin-bottom: 5px;
+
+}
+
+.playfair3 {
+font-size: 50px;    
+font-family: 'Playfair Display';
+text-align: center;              
+color: #000000;
+margin-bottom: 5px;
+line-height: 1.1;
+margin-top: 5px
+
+}
+
+/*Base para las imagenes*/
+
+.imagen-redondeada {
+   display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+  width: 300px;       
+  height: auto;
+}       
+
+/*DIVS sin espacio*/
+.div-sin-margen {
+  margin: 0;
+  padding: 0;
+}
+
+/*Mapa centrado y bonito*/
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.boton-contenedor {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #e093d1;
+  color: white;
+  padding: 18px 36px;           
+  font-size: 24px;             
+  border: none;
+  border-radius: 15px;         
+  text-decoration: none;
+  font-family: 'Playfair Display';
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton:hover {
+  background-color: #b8912e;
+  transform: scale(1.05);
+}
+
+/*Esquinas barrocas*/
+
+.esquina {
+  position: fixed;
+  width: 400px; 
+  z-index: 999;
+  pointer-events: none; 
+}
+
+/* Esquinas posicionadas */
+.esquina-ia {
+  top: 0;
+  left: 0;
+}
+
+.esquina-da {
+  top: 0;
+  right: 0;
+}
+
+.esquina-ib {
+  bottom: 0;
+  left: 0;
+}
+
+.esquina-db {
+  bottom: 0;
+  right: 0;
+}
